@@ -8,7 +8,7 @@
 
             foreach (var item in list)
             {
-                if (match(item)) return true;
+                if (match(item)) return true ;
             }
             return false;
         }
